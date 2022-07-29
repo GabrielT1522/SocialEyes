@@ -11,7 +11,7 @@
         <div id="menu">
             <h2 class="h2header">Menu</h2>
             <ul class="menulist">
-                <li> <a href="index.php">Main Page</a> </li>
+                <li> <a href="index.html">Main Page</a> </li>
                 <li> <a href="submitpost.php">New Post</a> </li>
             </ul>
         </div>
@@ -52,7 +52,7 @@
 
                             if ($r){
                                 echo '<p class="pass">Your post has been submitted. 
-                                      You can see your post in the <a href="index.php">Main Page</a></p>';
+                                      You can see your post in the <a href="index.html">Main Page</a></p>';
                             }else{
                                 echo '<p class="fail">Something went wrong. Your post was not submitted.</p>';
                             }
